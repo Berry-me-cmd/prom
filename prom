@@ -1,0 +1,7 @@
+weather = int(input('На улице идет дождь?'));
+if weather == 1:
+    print('Пошел дождь. Возмите зонтик!')
+elif weather == 0:
+    print ('Дождя нет!');
+else:
+    print ('ошибка');
